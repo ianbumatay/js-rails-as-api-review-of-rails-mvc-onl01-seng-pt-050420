@@ -113,7 +113,7 @@ as a match and so implicitly renders this file. This is the same as writing:
 class BirdsController < ApplicationController
   def index
     @birds = Bird.all
-    render 'birds/index.html.erb'
+    render 'birds/index.html.erb'∫
   end
 end
 ```
